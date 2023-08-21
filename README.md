@@ -9,10 +9,10 @@ The dataset used for this project, is the GTZAN dataset for music genre classifi
 1. Open this [link](https://drive.google.com/drive/folders/1tXOtfsoOn88uaKZIomjtZFC3mtx4qo0d) in your browser
 2. Click on '3sec' then go to 'Organize' and create a shorcut on your drive using 'Add shortcut'
 3. Now you can run the following command in the notebook to mount your drive and access the datasets:
-   '''
+   ```
    from google.colab import drive
    drive.mount('/content/drive')
-   '''
+   ```
    
 
 
