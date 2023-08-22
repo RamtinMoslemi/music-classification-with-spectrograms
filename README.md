@@ -17,3 +17,20 @@ drive.mount('/content/drive')
    
 ### Methods
 The main purpose of this project was to use convolutional neural networks to perform music genre classification. In addition to simply training a CNN, I used Transfer Learning as suggested in the project map and used some pretrained models such as ResNet. Furthermore I used XGBoost on the CSV files containing extracted features to compare the results to  the CNNs and observe the difference in these approaches.
+
+
+### Results
+| Model | Pre-Training | Dataset | Spectrogram Scale | Accuracy |
+| :---: | :---: | :---: | :---: | :---: | 
+| CNN | no | 30 second | mel scale | 66% |
+| ResNet18 | no | 30 second | mel scale | 71% |
+| ResNet18 | no | 3 second + MV | decibel scale | 75% |
+| ResNet18 | no | 3 second + Prob | decibel scale | 77% |
+| ResNet18 | yes | 30 second | mel scale | 77% |
+| ResNet18 | yes | 3 second + MV | mel scale | 83% |
+| ResNet18 | yes | 3 second + Prob | mel scale | 85% |
+| ResNet18 | yes | 3 second + MV | decibel scale | 90% |
+| ResNet18 | yes | 3 second + Prob | decibel scale | 89% |
+| XGBoost | - | 30 second | - | 74%|
+| XGBoost | - | 3 second | - | 90.4%|
+| XGBoost | - | 3 second + MV | - | %|
