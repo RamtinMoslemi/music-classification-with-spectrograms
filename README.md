@@ -34,3 +34,6 @@ The main purpose of this project was to use convolutional neural networks to per
 | XGBoost | - | 30 second | - | 74%|
 | XGBoost | - | 3 second | - | 90.4%|
 | XGBoost | - | 3 second + MV | - | %|
+
+![Unknown](https://github.com/RamtinMoslemi/music-classification-with-spectrograms/assets/76493699/dc85ac21-7c1e-4bcc-bc1c-4d8840922fe1)
+
